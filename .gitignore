@@ -1,0 +1,40 @@
+djavenv/
+db.sqlite3/
+# Python
+*.pyc
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.env
+.venv
+env/
+venv/
+pip-log.txt
+pip-delete-this-arg.txt
+
+# Django
+*.log
+*.sqlite3
+media/
+static_collected/
+staticfiles/
+
+# Editor
+.vscode/
+
+
+.directory
+
+#Virtualvenv
+dajnvenv/
+C:/Users/user/Documents/django/djavenv/
+
+
+
+
+
+#editor
+.editorconfig
+#database
+db.sqlite3 

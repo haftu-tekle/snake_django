@@ -1,0 +1,21 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+       <h1>Snake Game</h1> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+
+    <div class="game-container"> 
+        <canvas id="gameCanvas" width="500" height="500"></canvas>
+        <div id="scoreDisplay">Score: 0</div> 
+    </div>
+    <script src="{% static 'JS/game.js' %}"></script>
+</body>
+</html>
